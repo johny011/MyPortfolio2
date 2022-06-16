@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{96B687A6-5DE9-468C-BC78-888290878AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "ClassLibrary1\Core.csproj", "{5083A96A-C53E-4DE6-8781-A58726683841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructer", "Infrastructer\Infrastructer.csproj", "{DDE30E29-5E72-4517-A760-DF03D6AAB7C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B687A6-5DE9-468C-BC78-888290878AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B687A6-5DE9-468C-BC78-888290878AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B687A6-5DE9-468C-BC78-888290878AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B687A6-5DE9-468C-BC78-888290878AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5083A96A-C53E-4DE6-8781-A58726683841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5083A96A-C53E-4DE6-8781-A58726683841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5083A96A-C53E-4DE6-8781-A58726683841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5083A96A-C53E-4DE6-8781-A58726683841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE30E29-5E72-4517-A760-DF03D6AAB7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE30E29-5E72-4517-A760-DF03D6AAB7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE30E29-5E72-4517-A760-DF03D6AAB7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE30E29-5E72-4517-A760-DF03D6AAB7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E224D54-E66E-4202-96D3-B121CC3AE432}
+	EndGlobalSection
+EndGlobal
