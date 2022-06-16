@@ -7,5 +7,14 @@ namespace Core.Entities
         public string ProjectName { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
+
+        public string Type
+        {
+            get { return this.ObjectType(); }
+        }
+        public string ObjectType()
+        {
+            return "";
+        }
     }
 }
